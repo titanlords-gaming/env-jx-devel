@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-devel
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-devel
+  pipelines: {}
